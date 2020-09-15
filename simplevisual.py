@@ -10,6 +10,8 @@ import seaborn as sns
 import numpy as np
 import os, shutil
 
+# group is a column within the df. The df being a pandas dataframe. Explore Have Fun
+
 def dist_plot(df,group=None):
     fig = plt.figure(figsize=(20, 10))
     sns_plot =sns.distplot(df[group])
